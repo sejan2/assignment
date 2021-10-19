@@ -2,43 +2,49 @@
     {
         "id": "1",
         "doctors": "https://i.ibb.co/8N7JpmZ/dc1.jpg",
-        "name": "Fluoride Treatment",
+        "name": "Tooth Decay",
         "img": "https://i.ibb.co/tQJWM4j/teeth8.jpg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis inventore dolorem corporis. Assumenda?"
+        "description": "when plaque, the sticky substance that forms on teeth, combines with the sugars and/or starches of the food you eat. This combination produces acids",
+        "docs": "Dr.Aelim ahmed"
     },
     {
         "id": "2",
         "doctors": "https://i.ibb.co/b3MWvYx/dc7.jpg",
-        "name": "Fluoride Treatment",
+        "name": "Oral Cancer",
         "img": "https://i.ibb.co/pLkY7wh/teeth7.jpg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis inventore dolorem corporis. Assumenda?"
+        "description": "Using mouthwash to cover up bad breath when a dental problem is present will only mask the odor and not cure it. If you have chronic bad breath",
+        "docs": "Dr.Ruhul amin"
     },
     {
         "id": "3",
         "doctors": "https://i.ibb.co/1fhSW58/dc6.jpg",
-        "name": "Fluoride Treatment",
+        "name": "Tooth Erosion",
         "img": "https://i.ibb.co/dm6Lvd3/teeth5.png",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis inventore dolorem corporis. Assumenda?"
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis inventore dolorem corporis. Assumenda?",
+        "docs": "Dr.saif amin"
     },
     {
         "id": "4",
         "doctors": "https://i.ibb.co/YpTmr0f/dc4jpg.jpg",
-        "name": "Fluoride Treatment",
+        "name": "Tooth Sensitivity",
         "img": "https://i.ibb.co/KLbWRy2/teeth4.png",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis inventore dolorem corporis. Assumenda?"
+        "description": "Bad breath, also called halitosis, can be downright embarrassing. According to dental studies, about 85 percent of people with persistent bad breath have",
+        "docs": "Dr.Ratan chowdhory"
     },
     {
         "id": "5",
         "doctors": "https://i.ibb.co/TPPc3FS/dc2.jpg",
-        "name": "Fluoride Treatment",
+        "name": "Toothaches and Dental Emergencies",
         "img": "https://i.ibb.co/nmF3XW3/teeth3.png",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis inventore dolorem corporis. Assumenda?"
+        "description": "Educating yourself about common dental problems and their causes can also go a long way in prevention. Here is a list of common dental problems.",
+        "docs": "Dr.rahim chowdhory"
     },
     {
         "id": "6",
-        "doctors": "https: //i.ibb.co/brjwhmS/dc5.jpg",
-        "name": "Fluoride Treatment",
+        "doctors": "https://st.depositphotos.com/1771835/1477/i/950/depositphotos_14779771-stock-photo-portrait-of-confident-young-doctor.jpg",
+        "name": "Unattractive Smile",
         "img": "https://i.ibb.co/BPyZGSS/teeth2.jpg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis inventore dolorem corporis. Assumenda?"
+        "description": "Dental problems are never any fun, but the good news is that most of them can be easily prevented. Brushing twice a day, flossing daily, eating",
+        "docs": "Dr.Humayun"
     }
 ]

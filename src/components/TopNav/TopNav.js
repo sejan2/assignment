@@ -1,9 +1,13 @@
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import useAuth from '../../Context/useAuth';
+
+
 import './Navbar.css'
 
 const TopNav = () => {
+    const { user, logOut } = useAuth();
     return (
         <Navbar
             collapseOnSelect
@@ -39,7 +43,7 @@ const TopNav = () => {
                     </Nav.Link>
                     <Nav.Link
                         as={Link}
-                        to="/blog"
+                        to="/blogs"
                         className="mr-md-5 text-dark" active>
                         Blog
                     </Nav.Link>
@@ -49,15 +53,37 @@ const TopNav = () => {
                         className="mr-md-5 text-dark" active>
                         Contact Us
                     </Nav.Link>
-                    <Nav.Link
+                    {!user.displayName ? < Nav.Link
                         as={Link}
-                        to="/contact"
+                        to="/login"
                         className="mr-md-5 text-dark" active>
                         Login
                     </Nav.Link>
+
+                        :
+                        <Nav.Link
+                            as={Link}
+                            to=""
+                            className="mr-md-5 text-dark" onClick={logOut} active>
+                            Logout
+
+
+                            <small>({user.displayName})</small>
+                        </Nav.Link>
+
+                    }
+
+
+                    {/* <Nav.Link
+                        as={Link}
+                        to="/register"
+                        className="mr-md-5 text-dark" active>
+                        signup
+                    </Nav.Link> */}
+
                 </Nav>
             </Navbar.Collapse>
-        </Navbar>
+        </Navbar >
     );
 };
 

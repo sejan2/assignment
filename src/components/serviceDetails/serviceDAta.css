@@ -1,0 +1,14 @@
+.show-details{
+   display:flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.doctors{
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.doctors img{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+}
