@@ -4,6 +4,7 @@ import Banner from '../Banner/Banner';
 import CarouselBanner from '../carousel/CarouselBanner';
 import Contact from '../Contact/Contact';
 import Feature from '../Feature/Feature';
+import Footer from '../Footer/Footer';
 
 import Services from '../Services/Services';
 
@@ -19,7 +20,7 @@ const Home = () => {
             <Feature></Feature>
             <Appoinment></Appoinment>
             <Contact></Contact>
-
+            <Footer></Footer>
         </div>
     );
 };

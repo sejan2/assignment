@@ -20,7 +20,7 @@ const Appoinment = () => {
 
                 </Col>
                 <Col md={6} className="mt-5">
-                    <h2 className="mt-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nam itaque incidunt iusto voluptatibus maiores?</h2>
+                    <h2 className="mt-5 text-muted">Dental problems are never any fun, but the good news is that most of them can be easily prevented. Brushing twice a day, flossing da</h2>
                     <Button size="md" className="btn" style={{
                         background: "linear-gradient(75deg, #19D3AE, #0fcfec)"
                     }}>

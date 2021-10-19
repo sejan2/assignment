@@ -20,7 +20,7 @@ const Services = () => {
                 <p className="text-center text-muted my-2  fs-5">We help educate your patients on uninsured medical services and when they can expect to be charged</p>
 
                 <Row className="d-flex justify-content-center mx-auto mt-5 pt-5">
-                    {services?.map((service) => (<Service service={service} key={services.key}></Service>))}
+                    {services?.map((service) => (<Service service={service} key={service.id}></Service>))}
                 </Row>
             </Container>
         </div >

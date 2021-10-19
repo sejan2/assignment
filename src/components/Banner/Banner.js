@@ -11,7 +11,7 @@ const Banner = () => {
             <Row className="align-items-center banner" style={{ height: "100vh" }}>
                 <Col md={{ span: 4, offset: 1 }} className="p-md-5 order-2 order-md-1">
                     <h1>Your New Smile <br /> Starts Here</h1>
-                    <p className="text-muted my-4 pr-md-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the</p>
+                    <p className="text-muted my-4 pr-md-5">Dental problems are never any fun, but the good news is that most of them can be easily prevented. Brushing twice a day, flossing daily, eating proper</p>
                     <Button
                         as={Link}
                         size="lg"

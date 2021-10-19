@@ -8,10 +8,10 @@ import './carousel.css'
 const CarouselBanner = () => {
     return (
         <>
-            <Carousel>
-                <Carousel.Item>
+            <Carousel className="col-lg-12 col-sm-12">
+                <Carousel.Item >
                     <img style={{ height: "700px" }}
-                        className="d-block w-100"
+                        className="d-block w-100 fluid"
                         src={hos1}
                         alt="First slide"
                     />
@@ -23,7 +23,7 @@ const CarouselBanner = () => {
                 <Carousel.Item>
                     <img
                         style={{ height: "700px" }}
-                        className="d-block w-100 "
+                        className="d-block w-100 fluid "
                         src={hos3}
                         alt="Second slide"
                     />
@@ -36,7 +36,7 @@ const CarouselBanner = () => {
                 <Carousel.Item>
                     <img
                         style={{ height: "700px" }}
-                        className="d-block w-100"
+                        className="d-block w-100 fluid"
                         src={hos2}
                         alt="Third slide"
                     />

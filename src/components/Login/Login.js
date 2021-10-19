@@ -26,7 +26,7 @@ const Login = () => {
 
     return (
         <div className="text-center my-4">
-            <h2>Please Login</h2>
+            <h2 className="text-primary">Please Login</h2>
             <p className=" mt-2">Login with Email & Password</p>
             <p className="text-danger text-center">{error}</p>
             <div className="w-25 mx-auto">

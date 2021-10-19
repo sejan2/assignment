@@ -2,8 +2,6 @@ import { useEffect, useState } from "react";
 
 import {
     GoogleAuthProvider,
-    FacebookAuthProvider,
-    GithubAuthProvider,
     getAuth,
     signInWithPopup,
     signOut,
@@ -16,8 +14,7 @@ import {
 import initializeAuthentication from "../Firebase/Firebase.init";
 initializeAuthentication();
 const googleProvider = new GoogleAuthProvider();
-const fbProvider = new FacebookAuthProvider();
-const gitHubProvider = new GithubAuthProvider();
+
 const auth = getAuth();
 
 const useFirebase = () => {
@@ -45,31 +42,7 @@ const useFirebase = () => {
         return signInWithPopup(auth, googleProvider);
     };
 
-    // facebook sign in
-    const signInWithFacebook = () => {
-        signInWithPopup(auth, fbProvider)
-            .then((result) => {
-                const user = result.user;
-                setUser(user);
-            })
-            .catch((err) => {
-                const errorMessage = err.message;
-                setError(errorMessage);
-            });
-    };
 
-    // github sign in
-    const signInWithGithub = () => {
-        signInWithPopup(auth, gitHubProvider)
-            .then((result) => {
-                const user = result.user;
-                setUser(user);
-            })
-            .catch((err) => {
-                const errorMessage = err.message;
-                setError(errorMessage);
-            });
-    };
 
     //signInWithEmailAndPassword
     const signInWithEmail = (e) => {
@@ -154,8 +127,6 @@ const useFirebase = () => {
         setUserName,
         sendEmailVerification,
         signInWithGoogle,
-        signInWithFacebook,
-        signInWithGithub,
         loading,
         setLoading,
         user,

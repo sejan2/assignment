@@ -14,7 +14,7 @@ const TopNav = () => {
             expand="lg"
             variant="dark"
             fixed="top"
-            className="bg-white py-3">
+            className="bg-white">
 
             <Navbar.Brand
                 as={Link} to="/"
@@ -34,12 +34,6 @@ const TopNav = () => {
                         to="/services"
                         className="mr-md-5 text-dark" active>
                         Services
-                    </Nav.Link>
-                    <Nav.Link
-                        as={Link}
-                        to="/reviews"
-                        className="mr-md-5 text-dark" active>
-                        Reviews
                     </Nav.Link>
                     <Nav.Link
                         as={Link}
@@ -72,14 +66,6 @@ const TopNav = () => {
                         </Nav.Link>
 
                     }
-
-
-                    {/* <Nav.Link
-                        as={Link}
-                        to="/register"
-                        className="mr-md-5 text-dark" active>
-                        signup
-                    </Nav.Link> */}
 
                 </Nav>
             </Navbar.Collapse>
